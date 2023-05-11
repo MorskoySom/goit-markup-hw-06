@@ -554,6 +554,55 @@
             <use href="./images/icons.svg#close-btn"></use>
           </svg>
         </button>
+
+        <p class="modal-form-header">
+          Leave your contacts and we will call you back
+        </p>
+        <form name="modal-form">
+          <label for="modal-name">Name</label>
+          <div>
+            <input class="" type="text" name="modal-name" id="modal-name" />
+            <svg class="" width="20" height="20">
+              <use href="./images/icons.svg#person-modal-icon"></use>
+            </svg>
+          </div>
+
+          <label for="modal-phone">Phone</label>
+          <div>
+            <input class="" type="text" name="modal-phone" id="modal-phone" />
+            <svg class="" width="20" height="20">
+              <use href="./images/icons.svg#phone-modal-icon"></use>
+            </svg>
+          </div>
+
+          <label for="modal-email">Email</label>
+          <div>
+            <input class="" type="text" name="modal-email" id="modal-email" />
+            <svg class="" width="20" height="20">
+              <use href="./images/icons.svg#email-modal-icon"></use>
+            </svg>
+          </div>
+
+          <label for="modal-comment">Comment</label>
+          <div>
+            <textarea
+              name="modal-comment"
+              id="modal-comment"
+              rows="6"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <label>
+            <input type="checkbox" name="modal-agreement" />
+            <span
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy</a></span
+            >
+          </label>
+
+          <button class="hero-btn" type="submit">Send</button>
+        </form>
       </div>
     </div>
     <script src="./js/modal.js"></script>
