@@ -558,51 +558,64 @@
         <p class="modal-form-header">
           Leave your contacts and we will call you back
         </p>
-        <form name="modal-form">
-          <label for="modal-name">Name</label>
+        <form class="form" name="modal-form">
+          <label class="modal-small-text" for="modal-name">Name</label>
           <div>
-            <input class="" type="text" name="modal-name" id="modal-name" />
+            <input
+              class="modal-input"
+              type="text"
+              name="modal-name"
+              id="modal-name"
+            />
             <svg class="" width="20" height="20">
               <use href="./images/icons.svg#person-modal-icon"></use>
             </svg>
           </div>
 
-          <label for="modal-phone">Phone</label>
+          <label class="modal-small-text" for="modal-phone">Phone</label>
           <div>
-            <input class="" type="text" name="modal-phone" id="modal-phone" />
+            <input
+              class="modal-input"
+              type="text"
+              name="modal-phone"
+              id="modal-phone"
+            />
             <svg class="" width="20" height="20">
               <use href="./images/icons.svg#phone-modal-icon"></use>
             </svg>
           </div>
 
-          <label for="modal-email">Email</label>
+          <label class="modal-small-text" for="modal-email">Email</label>
           <div>
-            <input class="" type="text" name="modal-email" id="modal-email" />
+            <input
+              class="modal-input"
+              type="text"
+              name="modal-email"
+              id="modal-email"
+            />
             <svg class="" width="20" height="20">
               <use href="./images/icons.svg#email-modal-icon"></use>
             </svg>
           </div>
 
-          <label for="modal-comment">Comment</label>
-          <div>
-            <textarea
-              name="modal-comment"
-              id="modal-comment"
-              rows="6"
-              placeholder="Text input"
-            ></textarea>
-          </div>
+          <label class="modal-small-text" for="modal-comment">Comment</label>
+          <textarea
+            class="modal-small-text"
+            name="modal-comment"
+            id="modal-comment"
+            rows="6"
+            placeholder="Text input"
+          ></textarea>
 
-          <label>
+          <label class="agreement">
             <input type="checkbox" name="modal-agreement" />
-            <span
+            <span class="modal-text-agreement"
               >I accept the terms and conditions of the
-              <a href="">Privacy Policy</a></span
+              <a class="link-color-modal" href="">Privacy Policy</a></span
             >
           </label>
-
-          <button class="hero-btn" type="submit">Send</button>
         </form>
+        <button class="modal-btn" type="submit">Send</button>
       </div>
     </div>
     <script src="./js/modal.js"></script>
