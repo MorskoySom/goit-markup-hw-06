@@ -758,7 +758,7 @@ img {
 
 .modal-btn {
   display: block;
-  flex-direction: row;
+  /* flex-direction: row; */
   /* align-items: flex-start;
   gap: 10px; */
   font-family: "Roboto", sans-serif;
