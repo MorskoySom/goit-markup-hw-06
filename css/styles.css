@@ -762,19 +762,27 @@ img {
 }
 
 .form {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 8px;
+  gap: 8px; */
 
-  width: 100%;
-  height: 100%;
+  /* width: 100%;
+  height: 100%; */
 }
 
 .modal-item {
   display: flex;
   flex-direction: column;
   gap: 4px;
+  margin-bottom: 8px;
+}
+
+.modal-item-comment {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 16px;
 }
 
 .modal-small-text {
@@ -797,10 +805,11 @@ img {
   line-height: 14px;
   letter-spacing: 0.04em;
   color: var(--color-light-slate);
+  padding-left: 6px;
 }
 
 .modal-input {
-  width: 360px;
+  width: 100%;
   height: 40px;
 
   padding-left: 62px;
@@ -827,14 +836,14 @@ img {
 
 .input-comment {
   resize: none;
-  width: 360px;
+  width: 100%;
   height: 120px;
 
   padding: 8px 16px;
 
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 4px;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -861,9 +870,10 @@ img {
 
 .agreement {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+
   align-items: center;
-  gap: 6px;
+  /* gap: 6px; */
 }
 
 /* .agreement::before {
@@ -878,6 +888,8 @@ img {
 
 .modal-agreement-check {
   appearance: none;
+
+  /* margin-right: 6px; */
   /* display: block;
   width: 18px;
   height: 18px;
